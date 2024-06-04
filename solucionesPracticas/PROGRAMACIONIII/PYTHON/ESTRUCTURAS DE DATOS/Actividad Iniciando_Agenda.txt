@@ -1,0 +1,73 @@
+Hay cuatro tipos de datos de recopilación en el lenguaje de programación Python:
+
+La lista es una colección ordenada y modificable. Permite miembros duplicados.
+
+Tupla es una colección ordenada e inmutable. Permite miembros duplicados.
+
+Set es una colección desordenada, inmutable* y no indexada. No hay miembros duplicados.
+
+El diccionario es una colección ordenada** y modificable. No hay miembros duplicados.
+
+* Los elementos establecidos no se pueden cambiar, pero puedes eliminar y/o agregar elementos cuando quieras.
+
+**A partir de la versión 3.7 de Python, los diccionarios están ordenados . En Python 3.6 y versiones anteriores, los diccionarios están desordenados .
+
+Pueden ver la explicación de cada estructura y muchos ejemplos en los sguientes enlaces:
+Listas: https://www.w3schools.com/python/python_lists.asp
+
+Tuplas: https://www.w3schools.com/python/python_tuples.asp
+
+Set: https://www.w3schools.com/python/python_sets.asp
+
+Diccionarios: https://www.w3schools.com/python/python_dictionaries.asp
+
+=====================================================================================================================================================
+
+Estructuras de datos
+Actividades
+
+Actividades parte 1: 
+Iniciando
+Desarrollar en Python las siguientes consignas utilizando los recursos ya vistos (variables, input, print, if, if - else, while, for) que consideren 
+adecuados para cada uno de estos casos:
+
+Pedir al usuario que ingrese 10 nombres de personas (input en un ciclo) no repetidas, guardarlos en una lista y mostrarlos. 
+
+Eliminar la tercer y la última persona de la lista del ejercicio 1, luego ordenar la lista y mostrarlo
+
+Guardar en un diccionario los datos de una persona: nombre, apellido, dni, email, fecha de nacimiento.
+
+En un nuevo diccionario llamado familia guardar 4 personas, cada una de ellas con los mismos 5 datos (nombre, apellido, dni, email, fecha de nacimiento)
+
+Guardar en una tupla los primeros n números pares. El valor de n que lo ingrese el usuario (input). Luego mostrar los datos de la tupla.
+
+Nota: para saber si el número i es par hacer i % 2 == 0
+
+
+Actividades Parte 2: Agenda
+
+Desarrollar en Python un módulo que gestione una agenda telefónica en un diccionario de Python utilizando los recursos ya vistos 
+(variables, input, print, if, if - else, while, for) que consideren adecuados para cada uno de estos casos:
+
+Mostrar al usuario un menú de opciones
+
+Opción 1: Agregar una persona (apellido, nombre, dni, email y número de teléfono). Esta opción debe agregar al diccionario a la persona que el usuario ingrese
+
+Opción 2: Modificar una persona: dado su dni debe buscar la persona y preguntar si desea cambiar los demás campos de la persona, cambiando los que quiera.
+
+Opción 3: Eliminar una persona del diccionario. Elimina según el DNI
+
+Opción 4: Mostrar todos la agenda
+
+Opción 5: Salir
+
+Ayuda: Diccionarios -> https://www.w3schools.com/python/python_dictionaries.asp
+Agregar y actualizar elementos del diccionario 
+
+Eliminar elementos del diccionario
+
+Obtener un elemento del diccionario
+
+Recorrer y Mostrar los elementos (clave, valor) del diccionario
+
+y el input para pedir datos al usuario.
